@@ -1,0 +1,2540 @@
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5621163417
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.097883e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93270.34
+Cycles per update:	0.087831
+Cycles per cacheline:	1.405291
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_107016.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.978700,10.978840,10.978840,10.978840,10.978850,10.978840,10.978850,10.978830,10.978850,10.978840,10.978830,10.978830,10.978830,10.978830,10.978850,10.978830,10.978840,10.978840,10.978840,10.978850,10.978850,10.978840,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004509000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000704000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004509000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000704000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004509000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000704000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004509000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000704000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004509000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000704000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004509000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000704000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004509000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000704000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004509000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000704000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004509000,0,2004509000,9.111405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000704000,0,1000704000,4.548655e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004509000,0,2004509000,9.111405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000704000,0,1000704000,4.548655e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004509000,0,2004509000,9.111405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000704000,0,1000704000,4.548655e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004509000,0,2004509000,9.111405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000704000,0,1000704000,4.548655e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004509000,0,2004509000,9.111405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000704000,0,1000704000,4.548655e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004509000,0,2004509000,9.111405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000704000,0,1000704000,4.548655e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004509000,0,2004509000,9.111405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000704000,0,1000704000,4.548655e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004509000,0,2004509000,9.111405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000704000,0,1000704000,4.548655e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9787,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,10.9788,
+Memory read bandwidth [MBytes/s],93481.7973,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.3086,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46668.5899,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3604,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140150.3872,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.6691,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5335,10.9787,10.9788,10.9788,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93481.7973,0,93481.7973,4249.1726,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.3086,0,1026.3086,46.6504,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46668.5899,0,46668.5899,2121.2995,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3604,0,512.3604,23.2891,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140150.3872,0,140150.3872,6370.4721,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.6691,0,1538.6691,69.9395,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5622692551
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098182e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93244.97
+Cycles per update:	0.087855
+Cycles per cacheline:	1.405674
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_107189.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.981720,10.981830,10.981820,10.981820,10.981830,10.981800,10.981820,10.981810,10.981810,10.981820,10.981830,10.981790,10.981790,10.981830,10.981830,10.981810,10.981820,10.981830,10.981830,10.981830,10.981830,10.981830,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004349000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000634000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004349000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000634000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004349000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000634000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004349000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000634000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004349000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000634000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004349000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000634000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004349000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000634000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004349000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000634000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004349000,0,2004349000,9.110677e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000634000,0,1000634000,4.548336e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004349000,0,2004349000,9.110677e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000634000,0,1000634000,4.548336e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004349000,0,2004349000,9.110677e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000634000,0,1000634000,4.548336e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004349000,0,2004349000,9.110677e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000634000,0,1000634000,4.548336e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004349000,0,2004349000,9.110677e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000634000,0,1000634000,4.548336e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004349000,0,2004349000,9.110677e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000634000,0,1000634000,4.548336e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004349000,0,2004349000,9.110677e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000634000,0,1000634000,4.548336e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004349000,0,2004349000,9.110677e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000634000,0,1000634000,4.548336e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9817,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,10.9818,
+Memory read bandwidth [MBytes/s],93448.6299,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2267,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46652.4923,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3246,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140101.1222,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5513,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5995,10.9817,10.9818,10.9818,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93448.6299,0,93448.6299,4247.6650,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2267,0,1026.2267,46.6467,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46652.4923,0,46652.4923,2120.5678,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3246,0,512.3246,23.2875,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140101.1222,0,140101.1222,6368.2328,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5513,0,1538.5513,69.9342,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5622584989
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098161e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93246.75
+Cycles per update:	0.087853
+Cycles per cacheline:	1.405647
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_107362.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.981500,10.981580,10.981610,10.981610,10.981580,10.981610,10.981610,10.981600,10.981610,10.981610,10.981610,10.981590,10.981590,10.981610,10.981610,10.981610,10.981610,10.981610,10.981610,10.981610,10.981610,10.981610,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004617000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004617000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004617000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004617000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004617000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004617000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004617000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004617000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000684000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004617000,0,2004617000,9.111895e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000684000,0,1000684000,4.548564e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004617000,0,2004617000,9.111895e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000684000,0,1000684000,4.548564e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004617000,0,2004617000,9.111895e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000684000,0,1000684000,4.548564e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004617000,0,2004617000,9.111895e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000684000,0,1000684000,4.548564e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004617000,0,2004617000,9.111895e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000684000,0,1000684000,4.548564e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004617000,0,2004617000,9.111895e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000684000,0,1000684000,4.548564e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004617000,0,2004617000,9.111895e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000684000,0,1000684000,4.548564e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004617000,0,2004617000,9.111895e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000684000,0,1000684000,4.548564e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9815,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,
+Memory read bandwidth [MBytes/s],93462.9972,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.3639,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46655.7581,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3502,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140118.7554,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.7141,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5951,10.9815,10.9816,10.9816,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93462.9972,0,93462.9972,4248.3181,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.3639,0,1026.3639,46.6529,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46655.7581,0,46655.7581,2120.7163,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3502,0,512.3502,23.2886,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140118.7554,0,140118.7554,6369.0343,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.7141,0,1538.7141,69.9415,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5628718668
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.099359e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93145.14
+Cycles per update:	0.087949
+Cycles per cacheline:	1.407180
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_107535.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.993420,10.993590,10.993590,10.993590,10.993590,10.993600,10.993600,10.993600,10.993600,10.993600,10.993590,10.993600,10.993600,10.993600,10.993600,10.993600,10.993590,10.993600,10.993590,10.993600,10.993590,10.993600,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004314000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000551000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004314000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000551000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004314000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000551000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004314000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000551000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004314000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000551000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004522000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000648000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004522000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000648000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004522000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000648000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004314000,0,2004314000,9.110518e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000551000,0,1000551000,4.547959e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004314000,0,2004314000,9.110518e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000551000,0,1000551000,4.547959e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004314000,0,2004314000,9.110518e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000551000,0,1000551000,4.547959e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004314000,0,2004314000,9.110518e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000551000,0,1000551000,4.547959e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004314000,0,2004314000,9.110518e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000551000,0,1000551000,4.547959e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004522000,0,2004522000,9.111464e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000648000,0,1000648000,45484000,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004522000,0,2004522000,9.111464e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000648000,0,1000648000,45484000,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004522000,0,2004522000,9.111464e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000648000,0,1000648000,45484000,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9934,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,10.9936,
+Memory read bandwidth [MBytes/s],93351.1777,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2487,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46600.6699,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],139951.8476,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.8590,10.9934,10.9936,10.9936,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93351.1777,0,93351.1777,4243.2353,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2487,0,1026.2487,46.6477,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46600.6699,0,46600.6699,2118.2123,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3007,0,512.3007,23.2864,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,139951.8476,0,139951.8476,6361.4476,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5494,0,1538.5494,69.9341,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5622590534
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098162e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93246.66
+Cycles per update:	0.087853
+Cycles per cacheline:	1.405648
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_107708.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.981490,10.981620,10.981620,10.981620,10.981620,10.981620,10.981630,10.981630,10.981630,10.981630,10.981630,10.981620,10.981620,10.981630,10.981630,10.981620,10.981630,10.981620,10.981620,10.981630,10.981620,10.981620,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004323000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000610000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004323000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000610000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004323000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000610000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004323000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000610000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004323000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000610000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004323000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000610000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004323000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000610000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004323000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000610000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004323000,0,2004323000,9.110559e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000610000,0,1000610000,4.548227e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004323000,0,2004323000,9.110559e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000610000,0,1000610000,4.548227e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004323000,0,2004323000,9.110559e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000610000,0,1000610000,4.548227e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004323000,0,2004323000,9.110559e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000610000,0,1000610000,4.548227e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004323000,0,2004323000,9.110559e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000610000,0,1000610000,4.548227e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004323000,0,2004323000,9.110559e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000610000,0,1000610000,4.548227e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004323000,0,2004323000,9.110559e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000610000,0,1000610000,4.548227e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004323000,0,2004323000,9.110559e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000610000,0,1000610000,4.548227e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9815,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,10.9816,
+Memory read bandwidth [MBytes/s],93449.3749,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2134,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46652.3505,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140101.7254,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5951,10.9815,10.9816,10.9816,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93449.3749,0,93449.3749,4247.6989,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2134,0,1026.2134,46.6461,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46652.3505,0,46652.3505,2120.5614,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3123,0,512.3123,23.2869,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140101.7254,0,140101.7254,6368.2602,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5257,0,1538.5257,69.9330,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5623896571
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098417e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93225.01
+Cycles per update:	0.087873
+Cycles per cacheline:	1.405975
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_107884.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.984050,10.984180,10.984170,10.984170,10.984170,10.984160,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,10.984180,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004419000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000631000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004419000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000631000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004419000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000631000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004419000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000631000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004419000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000631000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004419000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000631000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004419000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000631000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004419000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000631000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004419000,0,2004419000,9.110995e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000631000,0,1000631000,4.548323e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004419000,0,2004419000,9.110995e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000631000,0,1000631000,4.548323e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004419000,0,2004419000,9.110995e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000631000,0,1000631000,4.548323e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004419000,0,2004419000,9.110995e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000631000,0,1000631000,4.548323e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004419000,0,2004419000,9.110995e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000631000,0,1000631000,4.548323e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004419000,0,2004419000,9.110995e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000631000,0,1000631000,4.548323e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004419000,0,2004419000,9.110995e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000631000,0,1000631000,4.548323e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004419000,0,2004419000,9.110995e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000631000,0,1000631000,4.548323e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9840,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,10.9842,
+Memory read bandwidth [MBytes/s],93432.0700,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2625,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46642.4563,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3231,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140074.5262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5856,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.6522,10.9840,10.9842,10.9842,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93432.0700,0,93432.0700,4246.9123,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2625,0,1026.2625,46.6483,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46642.4563,0,46642.4563,2120.1116,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3231,0,512.3231,23.2874,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140074.5262,0,140074.5262,6367.0239,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5856,0,1538.5856,69.9357,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5622040110
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098055e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93255.79
+Cycles per update:	0.087844
+Cycles per cacheline:	1.405511
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_108057.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.980380,10.980540,10.980550,10.980550,10.980530,10.980530,10.980550,10.980550,10.980540,10.980560,10.980540,10.980530,10.980540,10.980560,10.980550,10.980550,10.980540,10.980550,10.980550,10.980540,10.980540,10.980550,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004306000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000602000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004306000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000602000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004306000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000602000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004306000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000602000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004306000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000602000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004306000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000602000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004306000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000602000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004306000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000602000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004306000,0,2004306000,9.110482e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000602000,0,1000602000,4.548191e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004306000,0,2004306000,9.110482e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000602000,0,1000602000,4.548191e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004306000,0,2004306000,9.110482e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000602000,0,1000602000,4.548191e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004306000,0,2004306000,9.110482e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000602000,0,1000602000,4.548191e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004306000,0,2004306000,9.110482e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000602000,0,1000602000,4.548191e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004306000,0,2004306000,9.110482e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000602000,0,1000602000,4.548191e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004306000,0,2004306000,9.110482e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000602000,0,1000602000,4.548191e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004306000,0,2004306000,9.110482e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000602000,0,1000602000,4.548191e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9804,10.9805,10.9805,10.9805,10.9805,10.9805,10.9805,10.9805,10.9805,10.9806,10.9805,10.9805,10.9805,10.9806,10.9805,10.9805,10.9805,10.9805,10.9805,10.9805,10.9805,10.9805,
+Memory read bandwidth [MBytes/s],93458.0290,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2047,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46656.6935,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3082,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140114.7224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5711,10.9804,10.9806,10.9805,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93458.0290,0,93458.0290,4248.0922,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2047,0,1026.2047,46.6457,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46656.6935,0,46656.6935,2120.7588,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3082,0,512.3082,23.2867,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140114.7224,0,140114.7224,6368.8510,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5129,0,1538.5129,69.9324,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5626674457
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098960e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93178.98
+Cycles per update:	0.087917
+Cycles per cacheline:	1.406669
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_108232.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.989460,10.989580,10.989590,10.989600,10.989580,10.989590,10.989600,10.989600,10.989610,10.989600,10.989580,10.989590,10.989590,10.989600,10.989600,10.989590,10.989590,10.989600,10.989600,10.989590,10.989590,10.989600,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004417000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000640000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004417000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000640000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004417000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000640000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004417000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000640000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004417000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000640000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004417000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000640000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004417000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000640000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004417000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000640000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004417000,0,2004417000,9.110986e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000640000,0,1000640000,4.548364e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004417000,0,2004417000,9.110986e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000640000,0,1000640000,4.548364e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004417000,0,2004417000,9.110986e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000640000,0,1000640000,4.548364e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004417000,0,2004417000,9.110986e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000640000,0,1000640000,4.548364e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004417000,0,2004417000,9.110986e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000640000,0,1000640000,4.548364e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004417000,0,2004417000,9.110986e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000640000,0,1000640000,4.548364e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004417000,0,2004417000,9.110986e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000640000,0,1000640000,4.548364e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004417000,0,2004417000,9.110986e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000640000,0,1000640000,4.548364e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9895,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,10.9896,
+Memory read bandwidth [MBytes/s],93385.9811,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2615,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46619.9140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3277,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140005.8951,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5892,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.7711,10.9895,10.9896,10.9896,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93385.9811,0,93385.9811,4244.8173,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2615,0,1026.2615,46.6483,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46619.9140,0,46619.9140,2119.0870,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3277,0,512.3277,23.2876,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140005.8951,0,140005.8951,6363.9043,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5892,0,1538.5892,69.9359,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5622628831
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098170e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93246.03
+Cycles per update:	0.087854
+Cycles per cacheline:	1.405658
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_108405.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.981540,10.981690,10.981710,10.981700,10.981700,10.981700,10.981710,10.981710,10.981670,10.981710,10.981710,10.981690,10.981680,10.981710,10.981710,10.981710,10.981700,10.981710,10.981710,10.981700,10.981700,10.981700,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004396000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000627000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004396000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000627000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004396000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000627000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004396000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000627000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004396000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000627000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004396000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000627000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004396000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000627000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004396000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000627000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004396000,0,2004396000,9.110891e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000627000,0,1000627000,4.548305e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004396000,0,2004396000,9.110891e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000627000,0,1000627000,4.548305e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004396000,0,2004396000,9.110891e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000627000,0,1000627000,4.548305e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004396000,0,2004396000,9.110891e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000627000,0,1000627000,4.548305e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004396000,0,2004396000,9.110891e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000627000,0,1000627000,4.548305e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004396000,0,2004396000,9.110891e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000627000,0,1000627000,4.548305e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004396000,0,2004396000,9.110891e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000627000,0,1000627000,4.548305e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004396000,0,2004396000,9.110891e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000627000,0,1000627000,4.548305e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9815,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,10.9817,
+Memory read bandwidth [MBytes/s],93452.3529,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2508,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46652.9306,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3210,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140105.2836,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5718,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5972,10.9815,10.9817,10.9817,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93452.3529,0,93452.3529,4247.8342,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2508,0,1026.2508,46.6478,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46652.9306,0,46652.9306,2120.5878,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3210,0,512.3210,23.2873,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140105.2836,0,140105.2836,6368.4220,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5718,0,1538.5718,69.9351,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5621819790
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098012e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93259.45
+Cycles per update:	0.087841
+Cycles per cacheline:	1.405455
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_108578.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.979990,10.980100,10.980100,10.980120,10.980110,10.980090,10.980120,10.980120,10.980090,10.980110,10.980120,10.980080,10.980090,10.980120,10.980110,10.980090,10.980120,10.980110,10.980120,10.980120,10.980110,10.980120,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004434000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000654000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004434000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000654000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004434000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000654000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004434000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000654000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004434000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000654000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004434000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000654000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004434000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000654000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004434000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000654000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004434000,0,2004434000,9.111064e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000654000,0,1000654000,4.548427e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004434000,0,2004434000,9.111064e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000654000,0,1000654000,4.548427e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004434000,0,2004434000,9.111064e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000654000,0,1000654000,4.548427e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004434000,0,2004434000,9.111064e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000654000,0,1000654000,4.548427e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004434000,0,2004434000,9.111064e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000654000,0,1000654000,4.548427e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004434000,0,2004434000,9.111064e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000654000,0,1000654000,4.548427e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004434000,0,2004434000,9.111064e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000654000,0,1000654000,4.548427e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004434000,0,2004434000,9.111064e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000654000,0,1000654000,4.548427e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9800,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,10.9801,
+Memory read bandwidth [MBytes/s],93467.3172,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2702,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46660.7755,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3348,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140128.0926,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.6051,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5621,10.9800,10.9801,10.9801,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93467.3172,0,93467.3172,4248.5144,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2702,0,1026.2702,46.6486,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46660.7755,0,46660.7755,2120.9443,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3348,0,512.3348,23.2879,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140128.0926,0,140128.0926,6369.4588,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.6051,0,1538.6051,69.9366,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5623022325
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098247e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93239.50
+Cycles per update:	0.087860
+Cycles per cacheline:	1.405756
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_108752.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.982350,10.982460,10.982480,10.982470,10.982470,10.982460,10.982470,10.982480,10.982470,10.982480,10.982470,10.982440,10.982450,10.982480,10.982480,10.982450,10.982460,10.982480,10.982480,10.982480,10.982470,10.982470,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004521000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000652000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004521000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000652000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004521000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000652000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004521000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000652000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004521000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000649000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004511000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000649000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004511000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000649000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004511000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000649000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004521000,0,2004521000,9.111459e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000652000,0,1000652000,4.548418e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004521000,0,2004521000,9.111459e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000652000,0,1000652000,4.548418e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004521000,0,2004521000,9.111459e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000652000,0,1000652000,4.548418e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004521000,0,2004521000,9.111459e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000652000,0,1000652000,4.548418e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004521000,0,2004521000,9.111459e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000649000,0,1000649000,4.548405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004511000,0,2004511000,9.111414e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000649000,0,1000649000,4.548405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004511000,0,2004511000,9.111414e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000649000,0,1000649000,4.548405e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004511000,0,2004511000,9.111414e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000649000,0,1000649000,4.548405e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9824,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9824,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,10.9825,
+Memory read bandwidth [MBytes/s],93451.1131,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.3128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46650.5853,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3331,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140101.6985,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.6459,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.6148,10.9824,10.9825,10.9825,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93451.1131,0,93451.1131,4247.7779,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.3128,0,1026.3128,46.6506,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46650.5853,0,46650.5853,2120.4812,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3331,0,512.3331,23.2879,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140101.6985,0,140101.6985,6368.2590,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.6459,0,1538.6459,69.9385,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5626604801
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098946e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93180.14
+Cycles per update:	0.087916
+Cycles per cacheline:	1.406652
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_108925.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.989350,10.989470,10.989460,10.989460,10.989470,10.989460,10.989460,10.989470,10.989470,10.989470,10.989470,10.989470,10.989470,10.989470,10.989470,10.989470,10.989470,10.989480,10.989470,10.989470,10.989460,10.989470,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004353000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000597000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004353000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000597000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004353000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000597000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004353000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000597000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004353000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000597000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004353000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000597000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004353000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000597000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004353000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000597000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004353000,0,2004353000,9.110695e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000597000,0,1000597000,4.548168e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004353000,0,2004353000,9.110695e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000597000,0,1000597000,4.548168e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004353000,0,2004353000,9.110695e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000597000,0,1000597000,4.548168e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004353000,0,2004353000,9.110695e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000597000,0,1000597000,4.548168e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004353000,0,2004353000,9.110695e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000597000,0,1000597000,4.548168e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004353000,0,2004353000,9.110695e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000597000,0,1000597000,4.548168e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004353000,0,2004353000,9.110695e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000597000,0,1000597000,4.548168e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004353000,0,2004353000,9.110695e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000597000,0,1000597000,4.548168e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9893,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,10.9895,
+Memory read bandwidth [MBytes/s],93383.9341,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2287,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46618.3772,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3057,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140002.3113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5344,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.7688,10.9893,10.9895,10.9895,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93383.9341,0,93383.9341,4244.7243,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2287,0,1026.2287,46.6468,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46618.3772,0,46618.3772,2119.0171,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3057,0,512.3057,23.2866,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140002.3113,0,140002.3113,6363.7414,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5344,0,1538.5344,69.9334,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5619882524
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.097633e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93291.59
+Cycles per update:	0.087811
+Cycles per cacheline:	1.404971
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_109098.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.976180,10.976310,10.976330,10.976330,10.976320,10.976300,10.976340,10.976330,10.976310,10.976310,10.976310,10.976330,10.976330,10.976340,10.976330,10.976340,10.976330,10.976340,10.976340,10.976330,10.976330,10.976340,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004366000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004366000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004366000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004366000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004366000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004366000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004366000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004366000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004366000,0,2004366000,9.110755e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004366000,0,2004366000,9.110755e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004366000,0,2004366000,9.110755e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004366000,0,2004366000,9.110755e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004366000,0,2004366000,9.110755e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004366000,0,2004366000,9.110755e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004366000,0,2004366000,9.110755e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004366000,0,2004366000,9.110755e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9762,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,10.9763,
+Memory read bandwidth [MBytes/s],93496.5892,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2354,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46677.1587,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3369,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140173.7479,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5723,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.4785,10.9762,10.9763,10.9763,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93496.5892,0,93496.5892,4249.8450,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2354,0,1026.2354,46.6471,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46677.1587,0,46677.1587,2121.6890,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3369,0,512.3369,23.2880,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140173.7479,0,140173.7479,6371.5340,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5723,0,1538.5723,69.9351,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5620112372
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.097678e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93287.78
+Cycles per update:	0.087814
+Cycles per cacheline:	1.405029
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_109271.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.976660,10.976790,10.976780,10.976780,10.976770,10.976790,10.976790,10.976790,10.976780,10.976780,10.976780,10.976750,10.976750,10.976780,10.976780,10.976790,10.976780,10.976790,10.976790,10.976780,10.976780,10.976780,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004452000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000667000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004452000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000667000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004452000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000667000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004452000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000667000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004452000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000667000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004452000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000667000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004452000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000667000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004452000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000667000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004452000,0,2004452000,9.111145e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000667000,0,1000667000,4.548486e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004452000,0,2004452000,9.111145e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000667000,0,1000667000,4.548486e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004452000,0,2004452000,9.111145e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000667000,0,1000667000,4.548486e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004452000,0,2004452000,9.111145e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000667000,0,1000667000,4.548486e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004452000,0,2004452000,9.111145e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000667000,0,1000667000,4.548486e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004452000,0,2004452000,9.111145e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000667000,0,1000667000,4.548486e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004452000,0,2004452000,9.111145e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000667000,0,1000667000,4.548486e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004452000,0,2004452000,9.111145e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000667000,0,1000667000,4.548486e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9767,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,10.9767,10.9767,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,10.9768,
+Memory read bandwidth [MBytes/s],93496.5121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2794,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46675.5374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3415,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140172.0494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.6209,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.4893,10.9767,10.9768,10.9768,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93496.5121,0,93496.5121,4249.8415,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2794,0,1026.2794,46.6491,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46675.5374,0,46675.5374,2121.6153,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3415,0,512.3415,23.2883,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140172.0494,0,140172.0494,6371.4568,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.6209,0,1538.6209,69.9373,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5621073697
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.097866e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93271.82
+Cycles per update:	0.087829
+Cycles per cacheline:	1.405269
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_109445.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.978540,10.978660,10.978660,10.978660,10.978660,10.978660,10.978660,10.978660,10.978660,10.978650,10.978650,10.978650,10.978650,10.978660,10.978660,10.978660,10.978660,10.978660,10.978660,10.978660,10.978660,10.978660,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004373000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000637000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004373000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000637000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004373000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000637000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004373000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000637000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004373000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000637000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004373000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000637000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004373000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000637000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004373000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000637000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004373000,0,2004373000,9.110786e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000637000,0,1000637000,45483500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004373000,0,2004373000,9.110786e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000637000,0,1000637000,45483500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004373000,0,2004373000,9.110786e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000637000,0,1000637000,45483500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004373000,0,2004373000,9.110786e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000637000,0,1000637000,45483500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004373000,0,2004373000,9.110786e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000637000,0,1000637000,45483500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004373000,0,2004373000,9.110786e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000637000,0,1000637000,45483500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004373000,0,2004373000,9.110786e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000637000,0,1000637000,45483500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004373000,0,2004373000,9.110786e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000637000,0,1000637000,45483500,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9785,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,10.9787,
+Memory read bandwidth [MBytes/s],93476.8171,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2390,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46666.1454,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3261,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140142.9625,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5651,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5312,10.9785,10.9787,10.9787,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93476.8171,0,93476.8171,4248.9462,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2390,0,1026.2390,46.6472,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46666.1454,0,46666.1454,2121.1884,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3261,0,512.3261,23.2875,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140142.9625,0,140142.9625,6370.1347,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5651,0,1538.5651,69.9348,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5623147655
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098271e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93237.42
+Cycles per update:	0.087862
+Cycles per cacheline:	1.405787
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_109618.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.982560,10.982690,10.982700,10.982700,10.982680,10.982680,10.982700,10.982700,10.982710,10.982700,10.982700,10.982660,10.982700,10.982700,10.982700,10.982670,10.982670,10.982710,10.982710,10.982710,10.982710,10.982710,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004469000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004469000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004469000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004469000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004469000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004469000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004469000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004469000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000658000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004469000,0,2004469000,9.111223e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004469000,0,2004469000,9.111223e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004469000,0,2004469000,9.111223e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004469000,0,2004469000,9.111223e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004469000,0,2004469000,9.111223e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004469000,0,2004469000,9.111223e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004469000,0,2004469000,9.111223e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004469000,0,2004469000,9.111223e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000658000,0,1000658000,4.548445e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9826,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,10.9827,
+Memory read bandwidth [MBytes/s],93447.0768,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2881,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46650.0430,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3369,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140097.1198,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.6250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.6193,10.9826,10.9827,10.9827,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93447.0768,0,93447.0768,4247.5944,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2881,0,1026.2881,46.6495,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46650.0430,0,46650.0430,2120.4565,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3369,0,512.3369,23.2880,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140097.1198,0,140097.1198,6368.0509,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.6250,0,1538.6250,69.9375,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5622087223
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098064e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93255.01
+Cycles per update:	0.087845
+Cycles per cacheline:	1.405522
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_109792.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.980530,10.980650,10.980660,10.980660,10.980630,10.980650,10.980650,10.980660,10.980640,10.980650,10.980650,10.980640,10.980640,10.980650,10.980650,10.980650,10.980650,10.980650,10.980650,10.980650,10.980650,10.980650,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004529000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000677000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004529000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000677000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004529000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000677000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004529000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000677000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004529000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000677000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004529000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000677000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004529000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000677000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004529000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000677000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004529000,0,2004529000,9.111495e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000677000,0,1000677000,4.548532e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004529000,0,2004529000,9.111495e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000677000,0,1000677000,4.548532e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004529000,0,2004529000,9.111495e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000677000,0,1000677000,4.548532e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004529000,0,2004529000,9.111495e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000677000,0,1000677000,4.548532e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004529000,0,2004529000,9.111495e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000677000,0,1000677000,4.548532e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004529000,0,2004529000,9.111495e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000677000,0,1000677000,4.548532e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004529000,0,2004529000,9.111495e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000677000,0,1000677000,4.548532e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004529000,0,2004529000,9.111495e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000677000,0,1000677000,4.548532e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9805,10.9807,10.9807,10.9807,10.9806,10.9807,10.9807,10.9807,10.9806,10.9807,10.9807,10.9806,10.9806,10.9807,10.9807,10.9807,10.9807,10.9807,10.9807,10.9807,10.9807,10.9807,
+Memory read bandwidth [MBytes/s],93467.1503,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.3188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46659.5532,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3466,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140126.7035,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.6655,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5748,10.9805,10.9807,10.9807,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93467.1503,0,93467.1503,4248.5068,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.3188,0,1026.3188,46.6509,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46659.5532,0,46659.5532,2120.8888,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3466,0,512.3466,23.2885,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140126.7035,0,140126.7035,6369.3956,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.6655,0,1538.6655,69.9393,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5620413707
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.097737e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93282.78
+Cycles per update:	0.087819
+Cycles per cacheline:	1.405104
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_109965.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.977260,10.977380,10.977380,10.977390,10.977380,10.977380,10.977390,10.977380,10.977390,10.977390,10.977390,10.977380,10.977380,10.977380,10.977390,10.977380,10.977380,10.977390,10.977390,10.977380,10.977380,10.977380,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004348000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000633000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004348000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000633000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004348000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000633000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004348000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000633000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004348000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000633000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004348000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000633000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004348000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000633000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004348000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000633000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004348000,0,2004348000,9.110673e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000633000,0,1000633000,4.548332e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004348000,0,2004348000,9.110673e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000633000,0,1000633000,4.548332e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004348000,0,2004348000,9.110673e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000633000,0,1000633000,4.548332e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004348000,0,2004348000,9.110673e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000633000,0,1000633000,4.548332e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004348000,0,2004348000,9.110673e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000633000,0,1000633000,4.548332e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004348000,0,2004348000,9.110673e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000633000,0,1000633000,4.548332e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004348000,0,2004348000,9.110673e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000633000,0,1000633000,4.548332e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004348000,0,2004348000,9.110673e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000633000,0,1000633000,4.548332e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9773,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,10.9774,
+Memory read bandwidth [MBytes/s],93486.5509,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46671.4003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140157.9513,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.5503,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5027,10.9773,10.9774,10.9774,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93486.5509,0,93486.5509,4249.3887,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2262,0,1026.2262,46.6466,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46671.4003,0,46671.4003,2121.4273,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3241,0,512.3241,23.2875,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140157.9513,0,140157.9513,6370.8160,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.5503,0,1538.5503,69.9341,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5622204246
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098087e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93253.07
+Cycles per update:	0.087847
+Cycles per cacheline:	1.405552
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_110138.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.980710,10.980850,10.980860,10.980860,10.980860,10.980840,10.980860,10.980860,10.980870,10.980860,10.980870,10.980830,10.980830,10.980860,10.980860,10.980870,10.980870,10.980870,10.980870,10.980870,10.980870,10.980870,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004490000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000659000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004490000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000659000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004490000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000659000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004490000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000659000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004490000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000659000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004490000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000659000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004490000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000659000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004490000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000659000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004490000,0,2004490000,9.111318e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000659000,0,1000659000,45484500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004490000,0,2004490000,9.111318e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000659000,0,1000659000,45484500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004490000,0,2004490000,9.111318e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000659000,0,1000659000,45484500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004490000,0,2004490000,9.111318e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000659000,0,1000659000,45484500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004490000,0,2004490000,9.111318e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000659000,0,1000659000,45484500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004490000,0,2004490000,9.111318e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000659000,0,1000659000,45484500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004490000,0,2004490000,9.111318e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000659000,0,1000659000,45484500,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004490000,0,2004490000,9.111318e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000659000,0,1000659000,45484500,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9807,10.9809,10.9809,10.9809,10.9809,10.9808,10.9809,10.9809,10.9809,10.9809,10.9809,10.9808,10.9808,10.9809,10.9809,10.9809,10.9809,10.9809,10.9809,10.9809,10.9809,10.9809,
+Memory read bandwidth [MBytes/s],93463.7997,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.2989,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46657.9491,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3374,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140121.7488,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.6363,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.5793,10.9807,10.9809,10.9809,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93463.7997,0,93463.7997,4248.3545,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.2989,0,1026.2989,46.6499,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46657.9491,0,46657.9491,2120.8159,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3374,0,512.3374,23.2881,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140121.7488,0,140121.7488,6369.1704,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.6363,0,1538.6363,69.9380,,,,,,,,,,,,,,,,,,,
+#################################### 2097152 ####################################
+--------------------------------------------------------------------------------
+CPU name:	POWER9, altivec supported
+CPU type:	POWER9 architecture
+CPU clock:	3.08 GHz
+--------------------------------------------------------------------------------
+Warning: Sanitizing vector length to a multiple of the loop stride 8 and thread count 22 from 125000000 elements (1000000000 bytes) to 124999952 elements (999999616 bytes)
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+Allocate: Process running on core 0 (Domain S0) - Vector length 124999952/999999616 Offset 0 Alignment 512
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: copy_vsx4
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 22 threads
+--------------------------------------------------------------------------------
+Using Likwid Marker API
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on core 0 - Vector length 5681816 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on core 4 - Vector length 5681816 Offset 5681816
+Group: 0 Thread 2 Global Thread 2 running on core 8 - Vector length 5681816 Offset 11363632
+Group: 0 Thread 3 Global Thread 3 running on core 12 - Vector length 5681816 Offset 17045448
+Group: 0 Thread 4 Global Thread 4 running on core 16 - Vector length 5681816 Offset 22727264
+Group: 0 Thread 5 Global Thread 5 running on core 20 - Vector length 5681816 Offset 28409080
+Group: 0 Thread 6 Global Thread 6 running on core 24 - Vector length 5681816 Offset 34090896
+Group: 0 Thread 7 Global Thread 7 running on core 28 - Vector length 5681816 Offset 39772712
+Group: 0 Thread 8 Global Thread 8 running on core 32 - Vector length 5681816 Offset 45454528
+Group: 0 Thread 9 Global Thread 9 running on core 36 - Vector length 5681816 Offset 51136344
+Group: 0 Thread 10 Global Thread 10 running on core 40 - Vector length 5681816 Offset 56818160
+Group: 0 Thread 11 Global Thread 11 running on core 44 - Vector length 5681816 Offset 62499976
+Group: 0 Thread 12 Global Thread 12 running on core 48 - Vector length 5681816 Offset 68181792
+Group: 0 Thread 13 Global Thread 13 running on core 52 - Vector length 5681816 Offset 73863608
+Group: 0 Thread 14 Global Thread 14 running on core 56 - Vector length 5681816 Offset 79545424
+Group: 0 Thread 15 Global Thread 15 running on core 60 - Vector length 5681816 Offset 85227240
+Group: 0 Thread 16 Global Thread 16 running on core 64 - Vector length 5681816 Offset 90909056
+Group: 0 Thread 17 Global Thread 17 running on core 68 - Vector length 5681816 Offset 96590872
+Group: 0 Thread 18 Global Thread 18 running on core 72 - Vector length 5681816 Offset 102272688
+Group: 0 Thread 19 Global Thread 19 running on core 76 - Vector length 5681816 Offset 107954504
+Group: 0 Thread 20 Global Thread 20 running on core 80 - Vector length 5681816 Offset 113636320
+Group: 0 Thread 21 Global Thread 21 running on core 84 - Vector length 5681816 Offset 119318136
+--------------------------------------------------------------------------------
+Cycles:			5625202398
+CPU Clock:		3083000000
+Cycle Clock:		512000000
+Time:			1.098672e+01 sec
+Iterations:		11264
+Iterations per thread:	512
+Inner loop executions:	710227
+Size (Byte):		1999999232
+Size per thread:	90909056
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	1023999606784
+MByte/s:		93203.37
+Cycles per update:	0.087894
+Cycles per cacheline:	1.406301
+Loads per update:	1
+Stores per update:	1
+Load bytes per element:	8
+Store bytes per elem.:	8
+Load/store ratio:	1.00
+Instructions:		23999990785
+UOPs:			31999987712
+--------------------------------------------------------------------------------
+Writing Likwid Marker API results to file /tmp/likwid_110313.txt
+--------------------------------------------------------------------------------
+STRUCT,Info,3,,,,,,,,,,,,,,,,,,,,,
+CPU name:,POWER9, altivec supported,,,,,,,,,,,,,,,,,,,,,,
+CPU type:,POWER9 architecture,,,,,,,,,,,,,,,,,,,,,,
+CPU clock:,3.083 GHz,,,,,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Raw,MEM,16,,,,,,,,,,,,,,,,,,,
+Region Info,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+RDTSC Runtime [s],10.986600,10.986710,10.986730,10.986730,10.986710,10.986710,10.986730,10.986730,10.986720,10.986720,10.986730,10.986730,10.986730,10.986730,10.986730,10.986720,10.986720,10.986740,10.986740,10.986740,10.986740,10.986730,
+call count,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+Event,Counter,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84
+PM_MBA_READ_BYTES,MBOX0C0,2004510000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX0C1,1000672000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX1C0,2004510000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX1C1,1000672000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX2C0,2004510000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX2C1,1000672000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX3C0,2004510000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX3C1,1000672000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX4C0,2004510000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX4C1,1000672000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX5C0,2004510000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX5C1,1000672000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX6C0,2004510000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX6C1,1000672000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_READ_BYTES,MBOX7C0,2004510000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+PM_MBA_WRITE_BYTES,MBOX7C1,1000672000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TABLE,Region bench,Group 1 Raw STAT,MEM,16,,,,,,,,,,,,,,,,,,,
+Event,Counter,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX0C0,2004510000,0,2004510000,9.111409e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX0C1,1000672000,0,1000672000,4.548509e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX1C0,2004510000,0,2004510000,9.111409e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX1C1,1000672000,0,1000672000,4.548509e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX2C0,2004510000,0,2004510000,9.111409e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX2C1,1000672000,0,1000672000,4.548509e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX3C0,2004510000,0,2004510000,9.111409e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX3C1,1000672000,0,1000672000,4.548509e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX4C0,2004510000,0,2004510000,9.111409e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX4C1,1000672000,0,1000672000,4.548509e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX5C0,2004510000,0,2004510000,9.111409e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX5C1,1000672000,0,1000672000,4.548509e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX6C0,2004510000,0,2004510000,9.111409e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX6C1,1000672000,0,1000672000,4.548509e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_READ_BYTES STAT,MBOX7C0,2004510000,0,2004510000,9.111409e+07,,,,,,,,,,,,,,,,,,
+PM_MBA_WRITE_BYTES STAT,MBOX7C1,1000672000,0,1000672000,4.548509e+07,,,,,,,,,,,,,,,,,,
+TABLE,Region bench,Group 1 Metric,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Core 0,Core 4,Core 8,Core 12,Core 16,Core 20,Core 24,Core 28,Core 32,Core 36,Core 40,Core 44,Core 48,Core 52,Core 56,Core 60,Core 64,Core 68,Core 72,Core 76,Core 80,Core 84,
+Runtime (RDTSC) [s],10.9866,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,10.9867,
+Memory read bandwidth [MBytes/s],93414.6251,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory read data volume [GBytes],1026.3091,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write bandwidth [MBytes/s],46633.5412,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory write data volume [GBytes],512.3441,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory bandwidth [MBytes/s],140048.1663,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+Memory data volume [GBytes],1538.6532,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+TABLE,Region bench,Group 1 Metric STAT,MEM,7,,,,,,,,,,,,,,,,,,,
+Metric,Sum,Min,Max,Avg,,,,,,,,,,,,,,,,,,,
+Runtime (RDTSC) [s] STAT,241.7073,10.9866,10.9867,10.9867,,,,,,,,,,,,,,,,,,,
+Memory read bandwidth [MBytes/s] STAT,93414.6251,0,93414.6251,4246.1193,,,,,,,,,,,,,,,,,,,
+Memory read data volume [GBytes] STAT,1026.3091,0,1026.3091,46.6504,,,,,,,,,,,,,,,,,,,
+Memory write bandwidth [MBytes/s] STAT,46633.5412,0,46633.5412,2119.7064,,,,,,,,,,,,,,,,,,,
+Memory write data volume [GBytes] STAT,512.3441,0,512.3441,23.2884,,,,,,,,,,,,,,,,,,,
+Memory bandwidth [MBytes/s] STAT,140048.1663,0,140048.1663,6365.8257,,,,,,,,,,,,,,,,,,,
+Memory data volume [GBytes] STAT,1538.6532,0,1538.6532,69.9388,,,,,,,,,,,,,,,,,,,

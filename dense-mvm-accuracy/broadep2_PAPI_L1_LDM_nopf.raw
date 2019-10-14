@@ -1,0 +1,1430 @@
+Filled 80 Kbytes with data 3.141593 
+Filled 800 bytes with data 3.141593
+Filled 800 bytes with data 0.000000
+Using quadratic matrix with 10000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.002232 seconds
+Floating-point ops: 10000000
+Model : 0.040000
+Throughput: 4.479778 GFLOPs using 4 threads
+PAPI_L1_LDM : 159958
+Filled 320 Kbytes with data 3.141593 
+Filled 1 Kbytes with data 3.141593 
+Filled 1 Kbytes with data 0.000000 
+Using quadratic matrix with 40000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.002395 seconds
+Floating-point ops: 40000000
+Model : 0.160000
+Throughput: 16.703304 GFLOPs using 4 threads
+PAPI_L1_LDM : 2554855
+Filled 720 Kbytes with data 3.141593 
+Filled 2 Kbytes with data 3.141593 
+Filled 2 Kbytes with data 0.000000 
+Using quadratic matrix with 90000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.003266 seconds
+Floating-point ops: 90000000
+Model : 0.360000
+Throughput: 27.560863 GFLOPs using 4 threads
+PAPI_L1_LDM : 5615540
+Filled 1 Mbytes with data 3.141593
+Filled 3 Kbytes with data 3.141593 
+Filled 3 Kbytes with data 0.000000 
+Using quadratic matrix with 160000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.003886 seconds
+Floating-point ops: 160000000
+Model : 0.640000
+Throughput: 41.178661 GFLOPs using 4 threads
+PAPI_L1_LDM : 9904294
+Filled 2 Mbytes with data 3.141593
+Filled 4 Kbytes with data 3.141593 
+Filled 4 Kbytes with data 0.000000 
+Using quadratic matrix with 250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.004828 seconds
+Floating-point ops: 250000000
+Model : 1.000000
+Throughput: 51.781531 GFLOPs using 4 threads
+PAPI_L1_LDM : 15407278
+Filled 2 Mbytes with data 3.141593
+Filled 4 Kbytes with data 3.141593 
+Filled 4 Kbytes with data 0.000000 
+Using quadratic matrix with 360000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.005969 seconds
+Floating-point ops: 360000000
+Model : 1.440000
+Throughput: 60.306914 GFLOPs using 4 threads
+PAPI_L1_LDM : 22395790
+Filled 3 Mbytes with data 3.141593
+Filled 5 Kbytes with data 3.141593 
+Filled 5 Kbytes with data 0.000000 
+Using quadratic matrix with 490000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.007400 seconds
+Floating-point ops: 490000000
+Model : 1.960000
+Throughput: 66.216429 GFLOPs using 4 threads
+PAPI_L1_LDM : 30464665
+Filled 5 Mbytes with data 3.141593
+Filled 6 Kbytes with data 3.141593 
+Filled 6 Kbytes with data 0.000000 
+Using quadratic matrix with 640000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.008756 seconds
+Floating-point ops: 640000000
+Model : 2.560000
+Throughput: 73.094380 GFLOPs using 4 threads
+PAPI_L1_LDM : 39710638
+Filled 6 Mbytes with data 3.141593
+Filled 7 Kbytes with data 3.141593 
+Filled 7 Kbytes with data 0.000000 
+Using quadratic matrix with 810000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.010683 seconds
+Floating-point ops: 810000000
+Model : 3.240000
+Throughput: 75.819283 GFLOPs using 4 threads
+PAPI_L1_LDM : 50232474
+Filled 8 Mbytes with data 3.141593
+Filled 8 Kbytes with data 3.141593 
+Filled 8 Kbytes with data 0.000000 
+Using quadratic matrix with 1000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.012840 seconds
+Floating-point ops: 1000000000
+Model : 4.000000
+Throughput: 77.883230 GFLOPs using 4 threads
+PAPI_L1_LDM : 61978939
+Filled 9 Mbytes with data 3.141593
+Filled 8 Kbytes with data 3.141593 
+Filled 8 Kbytes with data 0.000000 
+Using quadratic matrix with 1210000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.014535 seconds
+Floating-point ops: 1210000000
+Model : 4.840000
+Throughput: 83.248643 GFLOPs using 4 threads
+PAPI_L1_LDM : 75135676
+Filled 11 Mbytes with data 3.141593
+Filled 9 Kbytes with data 3.141593 
+Filled 9 Kbytes with data 0.000000 
+Using quadratic matrix with 1440000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.016927 seconds
+Floating-point ops: 1440000000
+Model : 5.760000
+Throughput: 85.069970 GFLOPs using 4 threads
+PAPI_L1_LDM : 89371068
+Filled 13 Mbytes with data 3.141593
+Filled 10 Kbytes with data 3.141593 
+Filled 10 Kbytes with data 0.000000 
+Using quadratic matrix with 1690000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.019972 seconds
+Floating-point ops: 1690000000
+Model : 6.760000
+Throughput: 84.618607 GFLOPs using 4 threads
+PAPI_L1_LDM : 104846900
+Filled 15 Mbytes with data 3.141593
+Filled 11 Kbytes with data 3.141593 
+Filled 11 Kbytes with data 0.000000 
+Using quadratic matrix with 1960000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.022478 seconds
+Floating-point ops: 1960000000
+Model : 7.840000
+Throughput: 87.198280 GFLOPs using 4 threads
+PAPI_L1_LDM : 121630854
+Filled 18 Mbytes with data 3.141593
+Filled 12 Kbytes with data 3.141593 
+Filled 12 Kbytes with data 0.000000 
+Using quadratic matrix with 2250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.025334 seconds
+Floating-point ops: 2250000000
+Model : 9.000000
+Throughput: 88.815122 GFLOPs using 4 threads
+PAPI_L1_LDM : 139674022
+Filled 20 Mbytes with data 3.141593
+Filled 12 Kbytes with data 3.141593 
+Filled 12 Kbytes with data 0.000000 
+Using quadratic matrix with 2560000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.028548 seconds
+Floating-point ops: 2560000000
+Model : 10.240000
+Throughput: 89.675023 GFLOPs using 4 threads
+PAPI_L1_LDM : 158895297
+Filled 23 Mbytes with data 3.141593
+Filled 13 Kbytes with data 3.141593 
+Filled 13 Kbytes with data 0.000000 
+Using quadratic matrix with 2890000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.031649 seconds
+Floating-point ops: 2890000000
+Model : 11.560000
+Throughput: 91.313432 GFLOPs using 4 threads
+PAPI_L1_LDM : 179908316
+Filled 25 Mbytes with data 3.141593
+Filled 14 Kbytes with data 3.141593 
+Filled 14 Kbytes with data 0.000000 
+Using quadratic matrix with 3240000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.035795 seconds
+Floating-point ops: 3240000000
+Model : 12.960000
+Throughput: 90.515352 GFLOPs using 4 threads
+PAPI_L1_LDM : 202249615
+Filled 28 Mbytes with data 3.141593
+Filled 15 Kbytes with data 3.141593 
+Filled 15 Kbytes with data 0.000000 
+Using quadratic matrix with 3610000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.039316 seconds
+Floating-point ops: 3610000000
+Model : 14.440000
+Throughput: 91.821241 GFLOPs using 4 threads
+PAPI_L1_LDM : 226631641
+Filled 32 Mbytes with data 3.141593
+Filled 16 Kbytes with data 3.141593 
+Filled 16 Kbytes with data 0.000000 
+Using quadratic matrix with 4000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.043501 seconds
+Floating-point ops: 4000000000
+Model : 16.000000
+Throughput: 91.951868 GFLOPs using 4 threads
+PAPI_L1_LDM : 251273836
+Filled 35 Mbytes with data 3.141593
+Filled 16 Kbytes with data 3.141593 
+Filled 16 Kbytes with data 0.000000 
+Using quadratic matrix with 4410000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.050824 seconds
+Floating-point ops: 4410000000
+Model : 17.640000
+Throughput: 86.770460 GFLOPs using 4 threads
+PAPI_L1_LDM : 324533826
+Filled 38 Mbytes with data 3.141593
+Filled 17 Kbytes with data 3.141593 
+Filled 17 Kbytes with data 0.000000 
+Using quadratic matrix with 4840000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.057818 seconds
+Floating-point ops: 4840000000
+Model : 19.360000
+Throughput: 83.711652 GFLOPs using 4 threads
+PAPI_L1_LDM : 452894473
+Filled 42 Mbytes with data 3.141593
+Filled 18 Kbytes with data 3.141593 
+Filled 18 Kbytes with data 0.000000 
+Using quadratic matrix with 5290000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.066595 seconds
+Floating-point ops: 5290000000
+Model : 21.160000
+Throughput: 79.435656 GFLOPs using 4 threads
+PAPI_L1_LDM : 576764204
+Filled 46 Mbytes with data 3.141593
+Filled 19 Kbytes with data 3.141593 
+Filled 19 Kbytes with data 0.000000 
+Using quadratic matrix with 5760000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.073105 seconds
+Floating-point ops: 5760000000
+Model : 23.040000
+Throughput: 78.791061 GFLOPs using 4 threads
+PAPI_L1_LDM : 682393544
+Filled 50 Mbytes with data 3.141593
+Filled 20 Kbytes with data 3.141593 
+Filled 20 Kbytes with data 0.000000 
+Using quadratic matrix with 6250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.080658 seconds
+Floating-point ops: 6250000000
+Model : 25.000000
+Throughput: 77.488104 GFLOPs using 4 threads
+PAPI_L1_LDM : 772191906
+Filled 54 Mbytes with data 3.141593
+Filled 20 Kbytes with data 3.141593 
+Filled 20 Kbytes with data 0.000000 
+Using quadratic matrix with 6760000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.086632 seconds
+Floating-point ops: 6760000000
+Model : 27.040000
+Throughput: 78.031200 GFLOPs using 4 threads
+PAPI_L1_LDM : 842199189
+Filled 58 Mbytes with data 3.141593
+Filled 21 Kbytes with data 3.141593 
+Filled 21 Kbytes with data 0.000000 
+Using quadratic matrix with 7290000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.091772 seconds
+Floating-point ops: 7290000000
+Model : 29.160000
+Throughput: 79.435976 GFLOPs using 4 threads
+PAPI_L1_LDM : 908635270
+Filled 62 Mbytes with data 3.141593
+Filled 22 Kbytes with data 3.141593 
+Filled 22 Kbytes with data 0.000000 
+Using quadratic matrix with 7840000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.095906 seconds
+Floating-point ops: 7840000000
+Model : 31.360000
+Throughput: 81.746491 GFLOPs using 4 threads
+PAPI_L1_LDM : 977063061
+Filled 67 Mbytes with data 3.141593
+Filled 23 Kbytes with data 3.141593 
+Filled 23 Kbytes with data 0.000000 
+Using quadratic matrix with 8410000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.106826 seconds
+Floating-point ops: 8410000000
+Model : 33.640000
+Throughput: 78.726367 GFLOPs using 4 threads
+PAPI_L1_LDM : 1048192810
+Filled 72 Mbytes with data 3.141593
+Filled 24 Kbytes with data 3.141593 
+Filled 24 Kbytes with data 0.000000 
+Using quadratic matrix with 9000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.137344 seconds
+Floating-point ops: 9000000000
+Model : 36.000000
+Throughput: 65.529032 GFLOPs using 4 threads
+PAPI_L1_LDM : 1110733720
+Filled 76 Mbytes with data 3.141593
+Filled 24 Kbytes with data 3.141593 
+Filled 24 Kbytes with data 0.000000 
+Using quadratic matrix with 9610000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.148857 seconds
+Floating-point ops: 9610000000
+Model : 38.440000
+Throughput: 64.558604 GFLOPs using 4 threads
+PAPI_L1_LDM : 1188138382
+Filled 81 Mbytes with data 3.141593
+Filled 25 Kbytes with data 3.141593 
+Filled 25 Kbytes with data 0.000000 
+Using quadratic matrix with 10240000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.166722 seconds
+Floating-point ops: 10240000000
+Model : 40.960000
+Throughput: 61.419697 GFLOPs using 4 threads
+PAPI_L1_LDM : 1274567582
+Filled 87 Mbytes with data 3.141593
+Filled 26 Kbytes with data 3.141593 
+Filled 26 Kbytes with data 0.000000 
+Using quadratic matrix with 10890000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.192008 seconds
+Floating-point ops: 10890000000
+Model : 43.560000
+Throughput: 56.716452 GFLOPs using 4 threads
+PAPI_L1_LDM : 1354754422
+Filled 92 Mbytes with data 3.141593
+Filled 27 Kbytes with data 3.141593 
+Filled 27 Kbytes with data 0.000000 
+Using quadratic matrix with 11560000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.224296 seconds
+Floating-point ops: 11560000000
+Model : 46.240000
+Throughput: 51.538975 GFLOPs using 4 threads
+PAPI_L1_LDM : 1441830791
+Filled 98 Mbytes with data 3.141593
+Filled 28 Kbytes with data 3.141593 
+Filled 28 Kbytes with data 0.000000 
+Using quadratic matrix with 12250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.263734 seconds
+Floating-point ops: 12250000000
+Model : 49.000000
+Throughput: 46.448360 GFLOPs using 4 threads
+PAPI_L1_LDM : 1527651200
+Filled 103 Mbytes with data 3.141593
+Filled 28 Kbytes with data 3.141593 
+Filled 28 Kbytes with data 0.000000 
+Using quadratic matrix with 12960000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.333594 seconds
+Floating-point ops: 12960000000
+Model : 51.840000
+Throughput: 38.849651 GFLOPs using 4 threads
+PAPI_L1_LDM : 1617675880
+Filled 109 Mbytes with data 3.141593
+Filled 29 Kbytes with data 3.141593 
+Filled 29 Kbytes with data 0.000000 
+Using quadratic matrix with 13690000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.410101 seconds
+Floating-point ops: 13690000000
+Model : 54.760000
+Throughput: 33.382040 GFLOPs using 4 threads
+PAPI_L1_LDM : 1707610647
+Filled 115 Mbytes with data 3.141593
+Filled 30 Kbytes with data 3.141593 
+Filled 30 Kbytes with data 0.000000 
+Using quadratic matrix with 14440000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.437978 seconds
+Floating-point ops: 14440000000
+Model : 57.760000
+Throughput: 32.969695 GFLOPs using 4 threads
+PAPI_L1_LDM : 1804791721
+Filled 121 Mbytes with data 3.141593
+Filled 31 Kbytes with data 3.141593 
+Filled 31 Kbytes with data 0.000000 
+Using quadratic matrix with 15210000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.464717 seconds
+Floating-point ops: 15210000000
+Model : 60.840000
+Throughput: 32.729599 GFLOPs using 4 threads
+PAPI_L1_LDM : 1900008789
+Filled 128 Mbytes with data 3.141593
+Filled 32 Kbytes with data 3.141593 
+Filled 32 Kbytes with data 0.000000 
+Using quadratic matrix with 16000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.499165 seconds
+Floating-point ops: 16000000000
+Model : 64.000000
+Throughput: 32.053529 GFLOPs using 4 threads
+PAPI_L1_LDM : 2000169411
+Filled 134 Mbytes with data 3.141593
+Filled 32 Kbytes with data 3.141593 
+Filled 32 Kbytes with data 0.000000 
+Using quadratic matrix with 16810000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.544685 seconds
+Floating-point ops: 16810000000
+Model : 67.240000
+Throughput: 30.861860 GFLOPs using 4 threads
+PAPI_L1_LDM : 2099895361
+Filled 141 Mbytes with data 3.141593
+Filled 33 Kbytes with data 3.141593 
+Filled 33 Kbytes with data 0.000000 
+Using quadratic matrix with 17640000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.575983 seconds
+Floating-point ops: 17640000000
+Model : 70.560000
+Throughput: 30.625879 GFLOPs using 4 threads
+PAPI_L1_LDM : 2205741205
+Filled 147 Mbytes with data 3.141593
+Filled 34 Kbytes with data 3.141593 
+Filled 34 Kbytes with data 0.000000 
+Using quadratic matrix with 18490000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.611495 seconds
+Floating-point ops: 18490000000
+Model : 73.960000
+Throughput: 30.237356 GFLOPs using 4 threads
+PAPI_L1_LDM : 2310339943
+Filled 154 Mbytes with data 3.141593
+Filled 35 Kbytes with data 3.141593 
+Filled 35 Kbytes with data 0.000000 
+Using quadratic matrix with 19360000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.642684 seconds
+Floating-point ops: 19360000000
+Model : 77.440000
+Throughput: 30.123692 GFLOPs using 4 threads
+PAPI_L1_LDM : 2420017731
+Filled 162 Mbytes with data 3.141593
+Filled 36 Kbytes with data 3.141593 
+Filled 36 Kbytes with data 0.000000 
+Using quadratic matrix with 20250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.708309 seconds
+Floating-point ops: 20250000000
+Model : 81.000000
+Throughput: 28.589208 GFLOPs using 4 threads
+PAPI_L1_LDM : 2528313562
+Filled 169 Mbytes with data 3.141593
+Filled 36 Kbytes with data 3.141593 
+Filled 36 Kbytes with data 0.000000 
+Using quadratic matrix with 21160000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.707780 seconds
+Floating-point ops: 21160000000
+Model : 84.640000
+Throughput: 29.896285 GFLOPs using 4 threads
+PAPI_L1_LDM : 2644920398
+Filled 176 Mbytes with data 3.141593
+Filled 37 Kbytes with data 3.141593 
+Filled 37 Kbytes with data 0.000000 
+Using quadratic matrix with 22090000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.740830 seconds
+Floating-point ops: 22090000000
+Model : 88.360000
+Throughput: 29.817888 GFLOPs using 4 threads
+PAPI_L1_LDM : 2759534222
+Filled 184 Mbytes with data 3.141593
+Filled 38 Kbytes with data 3.141593 
+Filled 38 Kbytes with data 0.000000 
+Using quadratic matrix with 23040000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.777912 seconds
+Floating-point ops: 23040000000
+Model : 92.160000
+Throughput: 29.617745 GFLOPs using 4 threads
+PAPI_L1_LDM : 2880033111
+Filled 192 Mbytes with data 3.141593
+Filled 39 Kbytes with data 3.141593 
+Filled 39 Kbytes with data 0.000000 
+Using quadratic matrix with 24010000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.811222 seconds
+Floating-point ops: 24010000000
+Model : 96.040000
+Throughput: 29.597323 GFLOPs using 4 threads
+PAPI_L1_LDM : 2999496485
+Filled 200 Mbytes with data 3.141593
+Filled 40 Kbytes with data 3.141593 
+Filled 40 Kbytes with data 0.000000 
+Using quadratic matrix with 25000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.840147 seconds
+Floating-point ops: 25000000000
+Model : 100.000000
+Throughput: 29.756688 GFLOPs using 4 threads
+PAPI_L1_LDM : 3125699351
+Filled 208 Mbytes with data 3.141593
+Filled 40 Kbytes with data 3.141593 
+Filled 40 Kbytes with data 0.000000 
+Using quadratic matrix with 26010000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.874195 seconds
+Floating-point ops: 26010000000
+Model : 104.040000
+Throughput: 29.753104 GFLOPs using 4 threads
+PAPI_L1_LDM : 3249775054
+Filled 216 Mbytes with data 3.141593
+Filled 41 Kbytes with data 3.141593 
+Filled 41 Kbytes with data 0.000000 
+Using quadratic matrix with 27040000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.906289 seconds
+Floating-point ops: 27040000000
+Model : 108.160000
+Throughput: 29.835948 GFLOPs using 4 threads
+PAPI_L1_LDM : 3379414679
+Filled 224 Mbytes with data 3.141593
+Filled 42 Kbytes with data 3.141593 
+Filled 42 Kbytes with data 0.000000 
+Using quadratic matrix with 28090000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.986672 seconds
+Floating-point ops: 28090000000
+Model : 112.360000
+Throughput: 28.469439 GFLOPs using 4 threads
+PAPI_L1_LDM : 3507588059
+Filled 233 Mbytes with data 3.141593
+Filled 43 Kbytes with data 3.141593 
+Filled 43 Kbytes with data 0.000000 
+Using quadratic matrix with 29160000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 0.982448 seconds
+Floating-point ops: 29160000000
+Model : 116.640000
+Throughput: 29.680975 GFLOPs using 4 threads
+PAPI_L1_LDM : 3644464417
+Filled 242 Mbytes with data 3.141593
+Filled 44 Kbytes with data 3.141593 
+Filled 44 Kbytes with data 0.000000 
+Using quadratic matrix with 30250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.014448 seconds
+Floating-point ops: 30250000000
+Model : 121.000000
+Throughput: 29.819187 GFLOPs using 4 threads
+PAPI_L1_LDM : 3778694899
+Filled 250 Mbytes with data 3.141593
+Filled 44 Kbytes with data 3.141593 
+Filled 44 Kbytes with data 0.000000 
+Using quadratic matrix with 31360000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.053137 seconds
+Floating-point ops: 31360000000
+Model : 125.440000
+Throughput: 29.777702 GFLOPs using 4 threads
+PAPI_L1_LDM : 3919573846
+Filled 259 Mbytes with data 3.141593
+Filled 45 Kbytes with data 3.141593 
+Filled 45 Kbytes with data 0.000000 
+Using quadratic matrix with 32490000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.095927 seconds
+Floating-point ops: 32490000000
+Model : 129.960000
+Throughput: 29.646135 GFLOPs using 4 threads
+PAPI_L1_LDM : 4058419125
+Filled 269 Mbytes with data 3.141593
+Filled 46 Kbytes with data 3.141593 
+Filled 46 Kbytes with data 0.000000 
+Using quadratic matrix with 33640000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.131920 seconds
+Floating-point ops: 33640000000
+Model : 134.560000
+Throughput: 29.719422 GFLOPs using 4 threads
+PAPI_L1_LDM : 4205341925
+Filled 278 Mbytes with data 3.141593
+Filled 47 Kbytes with data 3.141593 
+Filled 47 Kbytes with data 0.000000 
+Using quadratic matrix with 34810000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.167896 seconds
+Floating-point ops: 34810000000
+Model : 139.240000
+Throughput: 29.805743 GFLOPs using 4 threads
+PAPI_L1_LDM : 4349145363
+Filled 288 Mbytes with data 3.141593
+Filled 48 Kbytes with data 3.141593 
+Filled 48 Kbytes with data 0.000000 
+Using quadratic matrix with 36000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.209596 seconds
+Floating-point ops: 36000000000
+Model : 144.000000
+Throughput: 29.761996 GFLOPs using 4 threads
+PAPI_L1_LDM : 4498834434
+Filled 297 Mbytes with data 3.141593
+Filled 48 Kbytes with data 3.141593 
+Filled 48 Kbytes with data 0.000000 
+Using quadratic matrix with 37210000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.304195 seconds
+Floating-point ops: 37210000000
+Model : 148.840000
+Throughput: 28.531015 GFLOPs using 4 threads
+PAPI_L1_LDM : 4645396016
+Filled 307 Mbytes with data 3.141593
+Filled 49 Kbytes with data 3.141593 
+Filled 49 Kbytes with data 0.000000 
+Using quadratic matrix with 38440000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.285513 seconds
+Floating-point ops: 38440000000
+Model : 153.760000
+Throughput: 29.902460 GFLOPs using 4 threads
+PAPI_L1_LDM : 4803784643
+Filled 317 Mbytes with data 3.141593
+Filled 50 Kbytes with data 3.141593 
+Filled 50 Kbytes with data 0.000000 
+Using quadratic matrix with 39690000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.328876 seconds
+Floating-point ops: 39690000000
+Model : 158.760000
+Throughput: 29.867346 GFLOPs using 4 threads
+PAPI_L1_LDM : 4957563328
+Filled 327 Mbytes with data 3.141593
+Filled 51 Kbytes with data 3.141593 
+Filled 51 Kbytes with data 0.000000 
+Using quadratic matrix with 40960000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.373747 seconds
+Floating-point ops: 40960000000
+Model : 163.840000
+Throughput: 29.816257 GFLOPs using 4 threads
+PAPI_L1_LDM : 5116602615
+Filled 338 Mbytes with data 3.141593
+Filled 52 Kbytes with data 3.141593 
+Filled 52 Kbytes with data 0.000000 
+Using quadratic matrix with 42250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.424868 seconds
+Floating-point ops: 42250000000
+Model : 169.000000
+Throughput: 29.651880 GFLOPs using 4 threads
+PAPI_L1_LDM : 5277425948
+Filled 348 Mbytes with data 3.141593
+Filled 52 Kbytes with data 3.141593 
+Filled 52 Kbytes with data 0.000000 
+Using quadratic matrix with 43560000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.459587 seconds
+Floating-point ops: 43560000000
+Model : 174.240000
+Throughput: 29.844069 GFLOPs using 4 threads
+PAPI_L1_LDM : 5444969526
+Filled 359 Mbytes with data 3.141593
+Filled 53 Kbytes with data 3.141593 
+Filled 53 Kbytes with data 0.000000 
+Using quadratic matrix with 44890000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.509100 seconds
+Floating-point ops: 44890000000
+Model : 179.560000
+Throughput: 29.746197 GFLOPs using 4 threads
+PAPI_L1_LDM : 5608229549
+Filled 369 Mbytes with data 3.141593
+Filled 54 Kbytes with data 3.141593 
+Filled 54 Kbytes with data 0.000000 
+Using quadratic matrix with 46240000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.545402 seconds
+Floating-point ops: 46240000000
+Model : 184.960000
+Throughput: 29.921008 GFLOPs using 4 threads
+PAPI_L1_LDM : 5777898400
+Filled 380 Mbytes with data 3.141593
+Filled 55 Kbytes with data 3.141593 
+Filled 55 Kbytes with data 0.000000 
+Using quadratic matrix with 47610000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.667370 seconds
+Floating-point ops: 47610000000
+Model : 190.440000
+Throughput: 28.553951 GFLOPs using 4 threads
+PAPI_L1_LDM : 5943848554
+Filled 392 Mbytes with data 3.141593
+Filled 56 Kbytes with data 3.141593 
+Filled 56 Kbytes with data 0.000000 
+Using quadratic matrix with 49000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.638200 seconds
+Floating-point ops: 49000000000
+Model : 196.000000
+Throughput: 29.910874 GFLOPs using 4 threads
+PAPI_L1_LDM : 6123155052
+Filled 403 Mbytes with data 3.141593
+Filled 56 Kbytes with data 3.141593 
+Filled 56 Kbytes with data 0.000000 
+Using quadratic matrix with 50410000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.687299 seconds
+Floating-point ops: 50410000000
+Model : 201.640000
+Throughput: 29.876147 GFLOPs using 4 threads
+PAPI_L1_LDM : 6296217459
+Filled 414 Mbytes with data 3.141593
+Filled 57 Kbytes with data 3.141593 
+Filled 57 Kbytes with data 0.000000 
+Using quadratic matrix with 51840000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.737616 seconds
+Floating-point ops: 51840000000
+Model : 207.360000
+Throughput: 29.833975 GFLOPs using 4 threads
+PAPI_L1_LDM : 6478273260
+Filled 426 Mbytes with data 3.141593
+Filled 58 Kbytes with data 3.141593 
+Filled 58 Kbytes with data 0.000000 
+Using quadratic matrix with 53290000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.794828 seconds
+Floating-point ops: 53290000000
+Model : 213.160000
+Throughput: 29.690871 GFLOPs using 4 threads
+PAPI_L1_LDM : 6656079787
+Filled 438 Mbytes with data 3.141593
+Filled 59 Kbytes with data 3.141593 
+Filled 59 Kbytes with data 0.000000 
+Using quadratic matrix with 54760000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.829187 seconds
+Floating-point ops: 54760000000
+Model : 219.040000
+Throughput: 29.936794 GFLOPs using 4 threads
+PAPI_L1_LDM : 6822767529
+Filled 450 Mbytes with data 3.141593
+Filled 60 Kbytes with data 3.141593 
+Filled 60 Kbytes with data 0.000000 
+Using quadratic matrix with 56250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.887566 seconds
+Floating-point ops: 56250000000
+Model : 225.000000
+Throughput: 29.800290 GFLOPs using 4 threads
+PAPI_L1_LDM : 7027294396
+Filled 462 Mbytes with data 3.141593
+Filled 60 Kbytes with data 3.141593 
+Filled 60 Kbytes with data 0.000000 
+Using quadratic matrix with 57760000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 1.928966 seconds
+Floating-point ops: 57760000000
+Model : 231.040000
+Throughput: 29.943507 GFLOPs using 4 threads
+PAPI_L1_LDM : 7216499320
+Filled 474 Mbytes with data 3.141593
+Filled 61 Kbytes with data 3.141593 
+Filled 61 Kbytes with data 0.000000 
+Using quadratic matrix with 59290000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.076931 seconds
+Floating-point ops: 59290000000
+Model : 237.160000
+Throughput: 28.546928 GFLOPs using 4 threads
+PAPI_L1_LDM : 7401547449
+Filled 486 Mbytes with data 3.141593
+Filled 62 Kbytes with data 3.141593 
+Filled 62 Kbytes with data 0.000000 
+Using quadratic matrix with 60840000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.031777 seconds
+Floating-point ops: 60840000000
+Model : 243.360000
+Throughput: 29.944232 GFLOPs using 4 threads
+PAPI_L1_LDM : 7602034913
+Filled 499 Mbytes with data 3.141593
+Filled 63 Kbytes with data 3.141593 
+Filled 63 Kbytes with data 0.000000 
+Using quadratic matrix with 62410000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.091649 seconds
+Floating-point ops: 62410000000
+Model : 249.640000
+Throughput: 29.837699 GFLOPs using 4 threads
+PAPI_L1_LDM : 7794944569
+Filled 512 Mbytes with data 3.141593
+Filled 64 Kbytes with data 3.141593 
+Filled 64 Kbytes with data 0.000000 
+Using quadratic matrix with 64000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.155577 seconds
+Floating-point ops: 64000000000
+Model : 256.000000
+Throughput: 29.690423 GFLOPs using 4 threads
+PAPI_L1_LDM : 7996931994
+Filled 524 Mbytes with data 3.141593
+Filled 64 Kbytes with data 3.141593 
+Filled 64 Kbytes with data 0.000000 
+Using quadratic matrix with 65610000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.213228 seconds
+Floating-point ops: 65610000000
+Model : 262.440000
+Throughput: 29.644480 GFLOPs using 4 threads
+PAPI_L1_LDM : 8192572381
+Filled 537 Mbytes with data 3.141593
+Filled 65 Kbytes with data 3.141593 
+Filled 65 Kbytes with data 0.000000 
+Using quadratic matrix with 67240000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.252325 seconds
+Floating-point ops: 67240000000
+Model : 268.960000
+Throughput: 29.853600 GFLOPs using 4 threads
+PAPI_L1_LDM : 8403931078
+Filled 551 Mbytes with data 3.141593
+Filled 66 Kbytes with data 3.141593 
+Filled 66 Kbytes with data 0.000000 
+Using quadratic matrix with 68890000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.310892 seconds
+Floating-point ops: 68890000000
+Model : 275.560000
+Throughput: 29.811003 GFLOPs using 4 threads
+PAPI_L1_LDM : 8605946139
+Filled 564 Mbytes with data 3.141593
+Filled 67 Kbytes with data 3.141593 
+Filled 67 Kbytes with data 0.000000 
+Using quadratic matrix with 70560000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.355664 seconds
+Floating-point ops: 70560000000
+Model : 282.240000
+Throughput: 29.953338 GFLOPs using 4 threads
+PAPI_L1_LDM : 8815729785
+Filled 578 Mbytes with data 3.141593
+Filled 68 Kbytes with data 3.141593 
+Filled 68 Kbytes with data 0.000000 
+Using quadratic matrix with 72250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.526433 seconds
+Floating-point ops: 72250000000
+Model : 289.000000
+Throughput: 28.597632 GFLOPs using 4 threads
+PAPI_L1_LDM : 9019475246
+Filled 591 Mbytes with data 3.141593
+Filled 68 Kbytes with data 3.141593 
+Filled 68 Kbytes with data 0.000000 
+Using quadratic matrix with 73960000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.469347 seconds
+Floating-point ops: 73960000000
+Model : 295.840000
+Throughput: 29.951238 GFLOPs using 4 threads
+PAPI_L1_LDM : 9240690740
+Filled 605 Mbytes with data 3.141593
+Filled 69 Kbytes with data 3.141593 
+Filled 69 Kbytes with data 0.000000 
+Using quadratic matrix with 75690000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.532947 seconds
+Floating-point ops: 75690000000
+Model : 302.760000
+Throughput: 29.882185 GFLOPs using 4 threads
+PAPI_L1_LDM : 9453115723
+Filled 619 Mbytes with data 3.141593
+Filled 70 Kbytes with data 3.141593 
+Filled 70 Kbytes with data 0.000000 
+Using quadratic matrix with 77440000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.614373 seconds
+Floating-point ops: 77440000000
+Model : 309.760000
+Throughput: 29.620867 GFLOPs using 4 threads
+PAPI_L1_LDM : 9676579160
+Filled 633 Mbytes with data 3.141593
+Filled 71 Kbytes with data 3.141593 
+Filled 71 Kbytes with data 0.000000 
+Using quadratic matrix with 79210000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.665159 seconds
+Floating-point ops: 79210000000
+Model : 316.840000
+Throughput: 29.720550 GFLOPs using 4 threads
+PAPI_L1_LDM : 9893072841
+Filled 648 Mbytes with data 3.141593
+Filled 72 Kbytes with data 3.141593 
+Filled 72 Kbytes with data 0.000000 
+Using quadratic matrix with 81000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.713894 seconds
+Floating-point ops: 81000000000
+Model : 324.000000
+Throughput: 29.846410 GFLOPs using 4 threads
+PAPI_L1_LDM : 10123406679
+Filled 662 Mbytes with data 3.141593
+Filled 72 Kbytes with data 3.141593 
+Filled 72 Kbytes with data 0.000000 
+Using quadratic matrix with 82810000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.774337 seconds
+Floating-point ops: 82810000000
+Model : 331.240000
+Throughput: 29.848575 GFLOPs using 4 threads
+PAPI_L1_LDM : 10344999202
+Filled 677 Mbytes with data 3.141593
+Filled 73 Kbytes with data 3.141593 
+Filled 73 Kbytes with data 0.000000 
+Using quadratic matrix with 84640000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.830282 seconds
+Floating-point ops: 84640000000
+Model : 338.560000
+Throughput: 29.905150 GFLOPs using 4 threads
+PAPI_L1_LDM : 10574160543
+Filled 691 Mbytes with data 3.141593
+Filled 74 Kbytes with data 3.141593 
+Filled 74 Kbytes with data 0.000000 
+Using quadratic matrix with 86490000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.025495 seconds
+Floating-point ops: 86490000000
+Model : 345.960000
+Throughput: 28.587058 GFLOPs using 4 threads
+PAPI_L1_LDM : 10796234042
+Filled 706 Mbytes with data 3.141593
+Filled 75 Kbytes with data 3.141593 
+Filled 75 Kbytes with data 0.000000 
+Using quadratic matrix with 88360000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 2.949686 seconds
+Floating-point ops: 88360000000
+Model : 353.440000
+Throughput: 29.955733 GFLOPs using 4 threads
+PAPI_L1_LDM : 11038197966
+Filled 722 Mbytes with data 3.141593
+Filled 76 Kbytes with data 3.141593 
+Filled 76 Kbytes with data 0.000000 
+Using quadratic matrix with 90250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.024256 seconds
+Floating-point ops: 90250000000
+Model : 361.000000
+Throughput: 29.842053 GFLOPs using 4 threads
+PAPI_L1_LDM : 11271241747
+Filled 737 Mbytes with data 3.141593
+Filled 76 Kbytes with data 3.141593 
+Filled 76 Kbytes with data 0.000000 
+Using quadratic matrix with 92160000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.094242 seconds
+Floating-point ops: 92160000000
+Model : 368.640000
+Throughput: 29.784352 GFLOPs using 4 threads
+PAPI_L1_LDM : 11510561602
+Filled 752 Mbytes with data 3.141593
+Filled 77 Kbytes with data 3.141593 
+Filled 77 Kbytes with data 0.000000 
+Using quadratic matrix with 94090000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.169409 seconds
+Floating-point ops: 94090000000
+Model : 376.360000
+Throughput: 29.686927 GFLOPs using 4 threads
+PAPI_L1_LDM : 11750898731
+Filled 768 Mbytes with data 3.141593
+Filled 78 Kbytes with data 3.141593 
+Filled 78 Kbytes with data 0.000000 
+Using quadratic matrix with 96040000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.280708 seconds
+Floating-point ops: 96040000000
+Model : 384.160000
+Throughput: 29.274173 GFLOPs using 4 threads
+PAPI_L1_LDM : 12002727414
+Filled 784 Mbytes with data 3.141593
+Filled 79 Kbytes with data 3.141593 
+Filled 79 Kbytes with data 0.000000 
+Using quadratic matrix with 98010000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.285136 seconds
+Floating-point ops: 98010000000
+Model : 392.040000
+Throughput: 29.834386 GFLOPs using 4 threads
+PAPI_L1_LDM : 12243582051
+Filled 800 Mbytes with data 3.141593
+Filled 80 Kbytes with data 3.141593 
+Filled 80 Kbytes with data 0.000000 
+Using quadratic matrix with 100000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.394273 seconds
+Floating-point ops: 100000000000
+Model : 400.000000
+Throughput: 29.461392 GFLOPs using 4 threads
+PAPI_L1_LDM : 12493366722
+Filled 816 Mbytes with data 3.141593
+Filled 80 Kbytes with data 3.141593 
+Filled 80 Kbytes with data 0.000000 
+Using quadratic matrix with 102010000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.623282 seconds
+Floating-point ops: 102010000000
+Model : 408.040000
+Throughput: 28.154029 GFLOPs using 4 threads
+PAPI_L1_LDM : 12735357755
+Filled 832 Mbytes with data 3.141593
+Filled 81 Kbytes with data 3.141593 
+Filled 81 Kbytes with data 0.000000 
+Using quadratic matrix with 104040000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.488310 seconds
+Floating-point ops: 104040000000
+Model : 416.160000
+Throughput: 29.825329 GFLOPs using 4 threads
+PAPI_L1_LDM : 12997918742
+Filled 848 Mbytes with data 3.141593
+Filled 82 Kbytes with data 3.141593 
+Filled 82 Kbytes with data 0.000000 
+Using quadratic matrix with 106090000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.548010 seconds
+Floating-point ops: 106090000000
+Model : 424.360000
+Throughput: 29.901269 GFLOPs using 4 threads
+PAPI_L1_LDM : 13249022071
+Filled 865 Mbytes with data 3.141593
+Filled 83 Kbytes with data 3.141593 
+Filled 83 Kbytes with data 0.000000 
+Using quadratic matrix with 108160000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.622230 seconds
+Floating-point ops: 108160000000
+Model : 432.640000
+Throughput: 29.860057 GFLOPs using 4 threads
+PAPI_L1_LDM : 13514220085
+Filled 882 Mbytes with data 3.141593
+Filled 84 Kbytes with data 3.141593 
+Filled 84 Kbytes with data 0.000000 
+Using quadratic matrix with 110250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.726081 seconds
+Floating-point ops: 110250000000
+Model : 441.000000
+Throughput: 29.588731 GFLOPs using 4 threads
+PAPI_L1_LDM : 13768947072
+Filled 898 Mbytes with data 3.141593
+Filled 84 Kbytes with data 3.141593 
+Filled 84 Kbytes with data 0.000000 
+Using quadratic matrix with 112360000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.774587 seconds
+Floating-point ops: 112360000000
+Model : 449.440000
+Throughput: 29.767497 GFLOPs using 4 threads
+PAPI_L1_LDM : 14041847543
+Filled 915 Mbytes with data 3.141593
+Filled 85 Kbytes with data 3.141593 
+Filled 85 Kbytes with data 0.000000 
+Using quadratic matrix with 114490000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.832224 seconds
+Floating-point ops: 114490000000
+Model : 457.960000
+Throughput: 29.875606 GFLOPs using 4 threads
+PAPI_L1_LDM : 14301688506
+Filled 933 Mbytes with data 3.141593
+Filled 86 Kbytes with data 3.141593 
+Filled 86 Kbytes with data 0.000000 
+Using quadratic matrix with 116640000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 3.988618 seconds
+Floating-point ops: 116640000000
+Model : 466.560000
+Throughput: 29.243210 GFLOPs using 4 threads
+PAPI_L1_LDM : 14571303280
+Filled 950 Mbytes with data 3.141593
+Filled 87 Kbytes with data 3.141593 
+Filled 87 Kbytes with data 0.000000 
+Using quadratic matrix with 118810000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.161140 seconds
+Floating-point ops: 118810000000
+Model : 475.240000
+Throughput: 28.552270 GFLOPs using 4 threads
+PAPI_L1_LDM : 14830114681
+Filled 968 Mbytes with data 3.141593
+Filled 88 Kbytes with data 3.141593 
+Filled 88 Kbytes with data 0.000000 
+Using quadratic matrix with 121000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.131513 seconds
+Floating-point ops: 121000000000
+Model : 484.000000
+Throughput: 29.287095 GFLOPs using 4 threads
+PAPI_L1_LDM : 15117028175
+Filled 985 Mbytes with data 3.141593
+Filled 88 Kbytes with data 3.141593 
+Filled 88 Kbytes with data 0.000000 
+Using quadratic matrix with 123210000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.147069 seconds
+Floating-point ops: 123210000000
+Model : 492.840000
+Throughput: 29.710142 GFLOPs using 4 threads
+PAPI_L1_LDM : 15387800093
+Filled 1003 Mbytes with data 3.141593
+Filled 89 Kbytes with data 3.141593 
+Filled 89 Kbytes with data 0.000000 
+Using quadratic matrix with 125440000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.353522 seconds
+Floating-point ops: 125440000000
+Model : 501.760000
+Throughput: 28.813449 GFLOPs using 4 threads
+PAPI_L1_LDM : 15672186851
+Filled 1021 Mbytes with data 3.141593
+Filled 90 Kbytes with data 3.141593 
+Filled 90 Kbytes with data 0.000000 
+Using quadratic matrix with 127690000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.295741 seconds
+Floating-point ops: 127690000000
+Model : 510.760000
+Throughput: 29.724790 GFLOPs using 4 threads
+PAPI_L1_LDM : 15946970300
+Filled 1039 Mbytes with data 3.141593
+Filled 91 Kbytes with data 3.141593 
+Filled 91 Kbytes with data 0.000000 
+Using quadratic matrix with 129960000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.471335 seconds
+Floating-point ops: 129960000000
+Model : 519.840000
+Throughput: 29.065145 GFLOPs using 4 threads
+PAPI_L1_LDM : 16240547202
+Filled 1058 Mbytes with data 3.141593
+Filled 92 Kbytes with data 3.141593 
+Filled 92 Kbytes with data 0.000000 
+Using quadratic matrix with 132250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.589019 seconds
+Floating-point ops: 132250000000
+Model : 529.000000
+Throughput: 28.818797 GFLOPs using 4 threads
+PAPI_L1_LDM : 16521103248
+Filled 1076 Mbytes with data 3.141593
+Filled 92 Kbytes with data 3.141593 
+Filled 92 Kbytes with data 0.000000 
+Using quadratic matrix with 134560000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.633290 seconds
+Floating-point ops: 134560000000
+Model : 538.240000
+Throughput: 29.041998 GFLOPs using 4 threads
+PAPI_L1_LDM : 16810435674
+Filled 1095 Mbytes with data 3.141593
+Filled 93 Kbytes with data 3.141593 
+Filled 93 Kbytes with data 0.000000 
+Using quadratic matrix with 136890000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.787579 seconds
+Floating-point ops: 136890000000
+Model : 547.560000
+Throughput: 28.592740 GFLOPs using 4 threads
+PAPI_L1_LDM : 17086190416
+Filled 1113 Mbytes with data 3.141593
+Filled 94 Kbytes with data 3.141593 
+Filled 94 Kbytes with data 0.000000 
+Using quadratic matrix with 139240000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.657403 seconds
+Floating-point ops: 139240000000
+Model : 556.960000
+Throughput: 29.896491 GFLOPs using 4 threads
+PAPI_L1_LDM : 17394991285
+Filled 1132 Mbytes with data 3.141593
+Filled 95 Kbytes with data 3.141593 
+Filled 95 Kbytes with data 0.000000 
+Using quadratic matrix with 141610000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.914792 seconds
+Floating-point ops: 141610000000
+Model : 566.440000
+Throughput: 28.813017 GFLOPs using 4 threads
+PAPI_L1_LDM : 17685166285
+Filled 1152 Mbytes with data 3.141593
+Filled 96 Kbytes with data 3.141593 
+Filled 96 Kbytes with data 0.000000 
+Using quadratic matrix with 144000000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.971248 seconds
+Floating-point ops: 144000000000
+Model : 576.000000
+Throughput: 28.966571 GFLOPs using 4 threads
+PAPI_L1_LDM : 17992028681
+Filled 1171 Mbytes with data 3.141593
+Filled 96 Kbytes with data 3.141593 
+Filled 96 Kbytes with data 0.000000 
+Using quadratic matrix with 146410000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 4.927528 seconds
+Floating-point ops: 146410000000
+Model : 585.640000
+Throughput: 29.712666 GFLOPs using 4 threads
+PAPI_L1_LDM : 18284659043
+Filled 1190 Mbytes with data 3.141593
+Filled 97 Kbytes with data 3.141593 
+Filled 97 Kbytes with data 0.000000 
+Using quadratic matrix with 148840000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 5.193171 seconds
+Floating-point ops: 148840000000
+Model : 595.360000
+Throughput: 28.660718 GFLOPs using 4 threads
+PAPI_L1_LDM : 18599995432
+Filled 1210 Mbytes with data 3.141593
+Filled 98 Kbytes with data 3.141593 
+Filled 98 Kbytes with data 0.000000 
+Using quadratic matrix with 151290000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 5.065265 seconds
+Floating-point ops: 151290000000
+Model : 605.160000
+Throughput: 29.868133 GFLOPs using 4 threads
+PAPI_L1_LDM : 18898156410
+Filled 1230 Mbytes with data 3.141593
+Filled 99 Kbytes with data 3.141593 
+Filled 99 Kbytes with data 0.000000 
+Using quadratic matrix with 153760000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 5.353857 seconds
+Floating-point ops: 153760000000
+Model : 615.040000
+Throughput: 28.719482 GFLOPs using 4 threads
+PAPI_L1_LDM : 19208249503
+Filled 1250 Mbytes with data 3.141593
+Filled 100 Kbytes with data 3.141593 
+Filled 100 Kbytes with data 0.000000 
+Using quadratic matrix with 156250000 elements.
+Performing calculation 500 times.
+Time in parallel region for each thread: 5.636766 seconds
+Floating-point ops: 156250000000
+Model : 625.000000
+Throughput: 27.719798 GFLOPs using 4 threads
+PAPI_L1_LDM : 19507169972
+Filled 1352 Mbytes with data 3.141593
+Filled 104 Kbytes with data 3.141593 
+Filled 104 Kbytes with data 0.000000 
+Using quadratic matrix with 169000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 2.943750 seconds
+Floating-point ops: 84500000000
+Model : 338.000000
+Throughput: 28.704881 GFLOPs using 4 threads
+PAPI_L1_LDM : 10559716695
+Filled 1568 Mbytes with data 3.141593
+Filled 112 Kbytes with data 3.141593 
+Filled 112 Kbytes with data 0.000000 
+Using quadratic matrix with 196000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 3.566863 seconds
+Floating-point ops: 98000000000
+Model : 392.000000
+Throughput: 27.475121 GFLOPs using 4 threads
+PAPI_L1_LDM : 12243313418
+Filled 1800 Mbytes with data 3.141593
+Filled 120 Kbytes with data 3.141593 
+Filled 120 Kbytes with data 0.000000 
+Using quadratic matrix with 225000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 4.008846 seconds
+Floating-point ops: 112500000000
+Model : 450.000000
+Throughput: 28.062939 GFLOPs using 4 threads
+PAPI_L1_LDM : 14054898327
+Filled 2048 Mbytes with data 3.141593
+Filled 128 Kbytes with data 3.141593 
+Filled 128 Kbytes with data 0.000000 
+Using quadratic matrix with 256000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 4.625606 seconds
+Floating-point ops: 128000000000
+Model : 512.000000
+Throughput: 27.672047 GFLOPs using 4 threads
+PAPI_L1_LDM : 15987559412
+Filled 2312 Mbytes with data 3.141593
+Filled 136 Kbytes with data 3.141593 
+Filled 136 Kbytes with data 0.000000 
+Using quadratic matrix with 289000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 5.403416 seconds
+Floating-point ops: 144500000000
+Model : 578.000000
+Throughput: 26.742341 GFLOPs using 4 threads
+PAPI_L1_LDM : 18057042323
+Filled 2592 Mbytes with data 3.141593
+Filled 144 Kbytes with data 3.141593 
+Filled 144 Kbytes with data 0.000000 
+Using quadratic matrix with 324000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 6.031238 seconds
+Floating-point ops: 162000000000
+Model : 648.000000
+Throughput: 26.860155 GFLOPs using 4 threads
+PAPI_L1_LDM : 20235686530
+Filled 2888 Mbytes with data 3.141593
+Filled 152 Kbytes with data 3.141593 
+Filled 152 Kbytes with data 0.000000 
+Using quadratic matrix with 361000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 6.724734 seconds
+Floating-point ops: 180500000000
+Model : 722.000000
+Throughput: 26.841208 GFLOPs using 4 threads
+PAPI_L1_LDM : 22547699492
+Filled 3200 Mbytes with data 3.141593
+Filled 160 Kbytes with data 3.141593 
+Filled 160 Kbytes with data 0.000000 
+Using quadratic matrix with 400000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 7.489859 seconds
+Floating-point ops: 200000000000
+Model : 800.000000
+Throughput: 26.702772 GFLOPs using 4 threads
+PAPI_L1_LDM : 24987381139
+Filled 3528 Mbytes with data 3.141593
+Filled 168 Kbytes with data 3.141593 
+Filled 168 Kbytes with data 0.000000 
+Using quadratic matrix with 441000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 8.339131 seconds
+Floating-point ops: 220500000000
+Model : 882.000000
+Throughput: 26.441604 GFLOPs using 4 threads
+PAPI_L1_LDM : 27553742291
+Filled 3872 Mbytes with data 3.141593
+Filled 176 Kbytes with data 3.141593 
+Filled 176 Kbytes with data 0.000000 
+Using quadratic matrix with 484000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 9.148449 seconds
+Floating-point ops: 242000000000
+Model : 968.000000
+Throughput: 26.452572 GFLOPs using 4 threads
+PAPI_L1_LDM : 30230267466
+Filled 4232 Mbytes with data 3.141593
+Filled 184 Kbytes with data 3.141593 
+Filled 184 Kbytes with data 0.000000 
+Using quadratic matrix with 529000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 10.009871 seconds
+Floating-point ops: 264500000000
+Model : 1058.000000
+Throughput: 26.423917 GFLOPs using 4 threads
+PAPI_L1_LDM : 33046171955
+Filled 4608 Mbytes with data 3.141593
+Filled 192 Kbytes with data 3.141593 
+Filled 192 Kbytes with data 0.000000 
+Using quadratic matrix with 576000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 10.933740 seconds
+Floating-point ops: 288000000000
+Model : 1152.000000
+Throughput: 26.340483 GFLOPs using 4 threads
+PAPI_L1_LDM : 35981250828
+Filled 5000 Mbytes with data 3.141593
+Filled 200 Kbytes with data 3.141593 
+Filled 200 Kbytes with data 0.000000 
+Using quadratic matrix with 625000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 11.860893 seconds
+Floating-point ops: 312500000000
+Model : 1250.000000
+Throughput: 26.347088 GFLOPs using 4 threads
+PAPI_L1_LDM : 39049370236
+Filled 5408 Mbytes with data 3.141593
+Filled 208 Kbytes with data 3.141593 
+Filled 208 Kbytes with data 0.000000 
+Using quadratic matrix with 676000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 12.829375 seconds
+Floating-point ops: 338000000000
+Model : 1352.000000
+Throughput: 26.345789 GFLOPs using 4 threads
+PAPI_L1_LDM : 42221784990
+Filled 5832 Mbytes with data 3.141593
+Filled 216 Kbytes with data 3.141593 
+Filled 216 Kbytes with data 0.000000 
+Using quadratic matrix with 729000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 13.841191 seconds
+Floating-point ops: 364500000000
+Model : 1458.000000
+Throughput: 26.334438 GFLOPs using 4 threads
+PAPI_L1_LDM : 45539227679
+Filled 6272 Mbytes with data 3.141593
+Filled 224 Kbytes with data 3.141593 
+Filled 224 Kbytes with data 0.000000 
+Using quadratic matrix with 784000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 14.908939 seconds
+Floating-point ops: 392000000000
+Model : 1568.000000
+Throughput: 26.292952 GFLOPs using 4 threads
+PAPI_L1_LDM : 48976373501
+Filled 6728 Mbytes with data 3.141593
+Filled 232 Kbytes with data 3.141593 
+Filled 232 Kbytes with data 0.000000 
+Using quadratic matrix with 841000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 15.992096 seconds
+Floating-point ops: 420500000000
+Model : 1682.000000
+Throughput: 26.294240 GFLOPs using 4 threads
+PAPI_L1_LDM : 52544033735
+Filled 7200 Mbytes with data 3.141593
+Filled 240 Kbytes with data 3.141593 
+Filled 240 Kbytes with data 0.000000 
+Using quadratic matrix with 900000000 elements.
+Performing calculation 250 times.
+Time in parallel region for each thread: 17.074778 seconds
+Floating-point ops: 450000000000
+Model : 1800.000000
+Throughput: 26.354661 GFLOPs using 4 threads
+PAPI_L1_LDM : 56208943766
